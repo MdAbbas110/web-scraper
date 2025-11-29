@@ -25,6 +25,15 @@
   },
   "background": {
     "service_worker": "background.js"
-  }
-
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "scraper-panel.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
 }
